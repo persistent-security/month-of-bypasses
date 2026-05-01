@@ -16,7 +16,8 @@ POCs are discovered using AI-driven variant analysis on the [Nemesis BAS](https:
 
 | # | MITRE ATT&CK ID | Technique | Bypass |
 |---|----------------|-----------|--------|
-| 1 | [T1003.002](https://attack.mitre.org/techniques/T1003/002/) | OS Credential Dumping: Security Account Manager | `esentutl.exe /y /vss` to copy SAM and SYSTEM hives without triggering Defender |
+| 1 | [T1003.002](https://attack.mitre.org/techniques/T1003/002/) | OS Credential Dumping: Security Account Manager | [`esentutl.exe /y /vss` to copy SAM and SYSTEM hives without triggering Defender](https://www.persistent-security.net/post/introducing-the-month-of-bypasses-what-defender-can-t-see) |
+| 2 | [T1055.002](https://attack.mitre.org/techniques/T1055/002/) | Portable Executable Injection | [You Can't Escape The Katz!](https://www.persistent-security.net/post/month-of-bypasses-iteration-2-you-can-t-escape-the-katz) |
 
 > POCs will be uploaded on a rolling basis over the 30-day series.
 
